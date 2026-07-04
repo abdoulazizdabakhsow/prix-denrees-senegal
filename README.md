@@ -3,7 +3,7 @@
 Dashboard du projet (partie 9 du rapport) : exploration des prix,
 comparaison des régions (ACP + clusters) et prévision SARIMA à 1–12 mois.
 Design inspiré d'une maquette « EcoSync » (cartes arrondies, carte insight
-en dégradé, carte vert foncé, badges et barres de progression).
+en dégradé, carte vert  foncé, badges et barres de progression).
 
 Deux implémentations sont fournies :
 
