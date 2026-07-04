@@ -47,4 +47,5 @@ python3 exporter_previsions.py
 ```
 
 Les ordres SARIMA utilisés sont ceux sélectionnés par AIC dans le notebook
+
 `../serie_temporelle/Series_temporelles_toutes_denrees.ipynb`.
