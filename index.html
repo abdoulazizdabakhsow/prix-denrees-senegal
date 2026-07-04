@@ -248,7 +248,7 @@ details.donnees thead th { position: sticky; top: 0; background: var(--carte);
       <div class="carte carte-graph">
         <h3>Les 3 profils de marchés (plan de l'ACP)</h3>
         <div class="note">Chaque point est une région ; couleur = cluster
-          (CAH, k = 3)</div>
+          (K-Means, k = 3)</div>
         <div class="zone-svg" id="acp"></div>
         <div class="legende-graph" id="legende-acp"></div>
       </div>
@@ -670,7 +670,7 @@ function majFiche() {
   document.getElementById("fiche").innerHTML = `
     <div class="carte-verte"><div class="sur-titre">Cluster</div>
       <div class="grand">${p.cluster}</div>
-      <div class="legende">Groupe de ${p.region} (CAH, k = 3)</div></div>` +
+      <div class="legende">Groupe de ${p.region} (K-Means, k = 3)</div></div>` +
     carteKPI("Prix moyen", fmt(p.prixMoyen), "FCFA/kg",
              badge((p.prixMoyen / moyNat - 1) * 100, 1),
              p.prixMoyen / maxAbs("prixMoyen"), "#0e8345") +
